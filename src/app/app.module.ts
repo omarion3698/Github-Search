@@ -1,34 +1,41 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { RepositoriesComponent } from './repositories/repositories.component';
-import { SearchFormComponent } from './search-form/search-form.component';
+import { HttpClientModule } from '@angular/common/http';
 import { UsersComponent } from './users/users.component';
-import { Highlight } from './highlight.directive.directive';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SearchFormComponent } from './search-form/search-form.component';
+import { RepositoriesComponent } from './repositories/repositories.component';
+import { NotfoundComponent } from './not-found/not-found.component';
+import { UserserviceService } from './userservice.service';
 import { HighlightDirective } from './highlight.directive';
 import { DatePipePipe } from './date-pipe.pipe';
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    NotFoundComponent,
-    RepositoriesComponent,
-    SearchFormComponent,
     UsersComponent,
-    Highlight.DirectiveDirective,
+    NavbarComponent,
+    SearchFormComponent,
+    RepositoriesComponent,
+    NotfoundComponent,
     HighlightDirective,
-    DatePipePipe
+    DatePipePipe,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
-  providers: [],
+  providers: [UserserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
