@@ -49,7 +49,7 @@ p{
   float: right;
 }
 .allrepos{
-  font-family: 'Lustria', serif;
+  font-family: sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -74,7 +74,7 @@ hr{
 .repos h2{
   font-size: 45px;
   margin-bottom: 2%;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: sans-serif;
 }
 #mouse-click{
   margin-top: -2%;
@@ -120,5 +120,5 @@ hr{
 }
 #created{
   font-weight: 400;
-  font-family: 'Pangolin', cursive;
+  font-family: sans-serif;
 }
