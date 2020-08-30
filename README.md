@@ -1,27 +1,68 @@
 # GithubSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+## Author
 
-## Development server
+Omar Abdirahman Hussein
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+This is a website built using Angular CLI that allows a user to enter a GitHub username into a form, submit it, see names and description of that person's public repositories. A person cn also look for repositories based on github username.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Live Page
 
-## Build
+https://omarion3698.github.io/Github-Search/.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The website is composed of two components.
 
-## Running unit tests
+1. Search Users - Search for Users on GitHub based on their usernames.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Search Repositories - Search for repositories on GitHub based on their authors name.
 
-## Running end-to-end tests
+## BDD
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Behavior
+Search for a GitHub profile.
+### Input
+Enter the Username of the GitHub User name
+### Output
+Displays the name, username, number of repositories, joining date, followers, following and lists the repositories.
 
-## Further help
+## SetUp Instructions
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Open Terminal {Ctrl+Alt+T}
+
+git clone https://github.com/omarion3698/Github-Search.git
+
+cd Github-Search
+
+code . or atom . based on the text editor you have.
+
+Run ng serve for a dev server.
+
+Navigate to http://localhost:4200/.
+
+npm install && ng serve
+
+## Technology Used
+
+Angular CLI
+
+HTML5
+
+CSS3
+
+Bootstrap
+
+Typescript
+
+Generated with Angular CLI version
+
+## Contact Information
+
+If you have any question or contributions, please email me at [omaribinbakarivic@gmail.com]
+
+## License
+
+MIT License:
+
+Copyright(c) 2020 Omar Abdirahman
