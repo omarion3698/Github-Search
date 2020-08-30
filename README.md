@@ -55,7 +55,7 @@ Bootstrap
 
 Typescript
 
-Generated with Angular CLI version
+Generated with Angular CLI version 10.0.8
 
 ## Contact Information
 
