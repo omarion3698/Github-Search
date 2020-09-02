@@ -12,8 +12,8 @@ import { NotfoundComponent } from './not-found/not-found.component';
 import { UserserviceService } from './userservice.service';
 import { HighlightDirective } from './highlight.directive';
 import { DatePipePipe } from './date-pipe.pipe';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+//import { NgProgressModule } from '@ngx-progressbar/core';
+//import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
 @NgModule({
   declarations: [
@@ -32,8 +32,8 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    NgProgressModule.forRoot(),
-    NgProgressHttpClientModule
+    //NgProgressModule.forRoot(),
+    //NgProgressHttpClientModule
   ],
   providers: [UserserviceService],
   bootstrap: [AppComponent]
