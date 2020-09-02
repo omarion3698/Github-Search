@@ -10,7 +10,7 @@ This is a website built using Angular CLI that allows a user to enter a GitHub u
 
 ## Live Page
 
-https://omarion3698.github.io/Github-Search/.
+https://omarion3698.github.io/Github-Search/
 
 The website is composed of two components.
 
